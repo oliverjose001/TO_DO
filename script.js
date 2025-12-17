@@ -38,7 +38,7 @@ addbtn.addEventListener("click", function () {
 
   delbtn.addEventListener("click", function () {
     list.removeChild(li);
-    tasks = tasks.filter((task) => task !== text); // 🔥 FIX
+    tasks = tasks.filter((task) => task !== text); 
   });
 
   li.appendChild(checkbox);
